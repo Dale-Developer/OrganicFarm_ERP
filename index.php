@@ -1215,7 +1215,7 @@
           <div class="brand-logo-wrap">
             <!-- Fallback emoji if logo image not found -->
             <img
-              src="../FrontEnd/assets/img/organicfarmlogo.png"
+              src="../assets/img/organicfarmlogo.png"
               alt="Arnold & Paz Logo"
               onerror="
                 this.style.display = 'none';
@@ -1244,7 +1244,7 @@
     <nav>
       <a href="#" class="nav-logo">
         <div class="logo-icon">
-          <img src="../FrontEnd/assets/img/organicfarmlogo.png" alt="" />
+          <img src="../assets/img/organicfarmlogo.png" alt="" />
         </div>
         <span>Arnold &amp; Paz<br />Organic Farm</span>
       </a>
@@ -1297,7 +1297,7 @@
       </div>
       <div class="passion-image">
         <img
-          src="../FrontEnd/assets/img/background.png"
+          src="../assets/img/background.png"
           alt="Organic farm field"
         />
         <div class="since-badge"><span>Producing since</span>2018</div>
@@ -1317,7 +1317,7 @@
       <div class="services-grid">
         <div class="service-card fade-in fade-in-delay-2">
           <div class="service-icon">
-            <img src="../FrontEnd/assets/icons/food.png" alt="" />
+            <img src="../assets/icons/food.png" alt="" />
           </div>
           <h3>Vermicast Import &amp; Export</h3>
           <p>
@@ -1327,7 +1327,7 @@
         </div>
         <div class="service-card fade-in fade-in-delay-3">
           <div class="service-icon">
-            <img src="../FrontEnd/assets/icons/shovel.png" alt="" />
+            <img src="../assets/icons/shovel.png" alt="" />
           </div>
           <h3>Farm Necessities &amp; Supplies</h3>
           <p>
@@ -1353,7 +1353,7 @@
           <div class="product-img-wrap">
             <img
               class="product-img"
-              src="../FrontEnd/assets/img/COMPOST.jpg"
+              src="../assets/img/COMPOST.jpg"
               alt="vermicast compost"
             />
           </div>
@@ -1371,7 +1371,7 @@
           <div class="product-img-wrap">
             <img
               class="product-img"
-              src="../FrontEnd/assets/img/ANC.jpg"
+              src="../assets/img/ANC.jpg"
               alt="ANC"
             />
           </div>
