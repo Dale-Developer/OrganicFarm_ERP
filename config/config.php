@@ -1,13 +1,14 @@
 <?php
-$servername = "localhost";
-$username = "root"; // your MySQL username
-$password = "";     // your MySQL password
-$dbname = "organicfarm_db";
+$host = 'localhost';
+$dbname = 'organicfarm_db'; // Change to your database name
+$username = 'root'; // Change to your MySQL username
+$password = ''; // Change to your MySQL password
 
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+try {
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+} catch(PDOException $e) {
+    die("Connection failed: " . $e->getMessage());
 }
 ?>
