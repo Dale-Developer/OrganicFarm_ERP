@@ -613,7 +613,7 @@
 <body>
   <div class="topbar">
     <div class="topbar-logo">
-      <img src="../assets/img/organicfarmlogo.png" alt="LSPU Logo" />
+      <img src="../../assets/img/organicfarmlogo.png" alt="LSPU Logo" />
       <div class="brandname">
         <h1>Arnold & Paz</h1>
         <h3>Organic Farm</h3>
@@ -622,7 +622,7 @@
 
     <div class="profile-nav">
       <a class="profile-icon">
-        <i class='bx bxs-bell'></i>
+        <!-- <i class='bx bxs-bell'></i> -->
       </a>
       <a class="profile-icon" href="#">
         <i class="bx bx-user-circle"></i>
@@ -634,31 +634,31 @@
     <div class="nav">
       <ul>
         <li>
-          <a href="" data-page="dashboard">
+          <a href="admin_dashboard.php" data-page="dashboard">
             <i class="bx bxs-dashboard"></i>
             <span>Dashboard</span>
           </a>
         </li>
         <li>
-          <a href="" data-page="records">
+          <a href="../../static/Admin/admin_orders.php" data-page="records">
             <i class="bx bxs-cart-alt"></i>
             <span>Orders</span>
           </a>
         </li>
         <li>
-          <a href="" data-page="requests">
+          <a href="../../static/Admin/admin_sales.php" data-page="requests">
             <i class="bx bxs-coin-stack"></i>
             <span>Sales</span>
           </a>
         </li>
         <li>
-          <a href="" data-page="archived">
+          <a href="../../static/Admin/admin_inventory.php" data-page="archived">
             <i class="bx bxs-package"></i>
             <span>Inventory</span>
           </a>
         </li>
         <li>
-          <a href="" data-page="reports">
+          <a href="../../static/Admin/admin_settings.php" data-page="reports">
             <i class="bx bxs-cog"></i>
             <span>Settings</span>
           </a>
@@ -666,7 +666,7 @@
       </ul>
     </div>
     <div class="logout">
-      <a href="">
+      <a href="../../process/logout.php">
         <i class="bx bx-log-out"></i>
         <span>Logout</span>
       </a>

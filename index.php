@@ -19,6 +19,10 @@ if (isset($_GET['error'])) {
     $errorMessage = isset($_SESSION['error']) ? $_SESSION['error'] : 'Signup failed. Please try again.';
     unset($_SESSION['error']);
   }
+  elseif ($_GET['error'] === 'admin') {
+    $errorMessage = isset($_SESSION['error']) ? $_SESSION['error'] : 'Admin login failed.';
+    unset($_SESSION['error']);
+  }
 }
 
 if (isset($_SESSION['errors'])) {
